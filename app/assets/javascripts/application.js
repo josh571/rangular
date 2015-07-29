@@ -12,8 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+<<<<<<< HEAD
 //= require angular/angular
 //= require angular-route/angular-route
 //= require angular-rails-templates
 //= require bootstrap-sass/assets/javascripts/bootstrap-sprockets
+=======
+//= require turbolinks
+>>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
 //= require_tree .
