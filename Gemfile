@@ -17,7 +17,6 @@ gem 'angular-rails-templates'
 gem 'bower-rails'
 gem 'sass', '3.2.19'
 gem 'sprockets', '2.8.0' 
-
 gem 'foreman'
 group :production, :staging do
   gem 'rails_12factor'
