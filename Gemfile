@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ruby '2.2.2'
+=======
+
+>>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
 =======
 
 >>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
@@ -25,6 +29,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'angular-rails-templates'
 gem 'bower-rails'
 gem 'sass', '3.2.19'
@@ -36,6 +41,9 @@ group :production, :staging do
   gem 'rails_serve_static_assets'
 end
 
+=======
+gem 'sass', '3.2.19'
+>>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
 =======
 gem 'sass', '3.2.19'
 >>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment

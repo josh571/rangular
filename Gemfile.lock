@@ -188,8 +188,11 @@ PLATFORMS
 
 DEPENDENCIES
 <<<<<<< HEAD
+<<<<<<< HEAD
   angular-rails-templates
   bower-rails
+=======
+>>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
 =======
 >>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
   byebug

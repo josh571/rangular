@@ -20,11 +20,15 @@ module Rangular
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 <<<<<<< HEAD
+<<<<<<< HEAD
     root.join('vendor', 'assets', 'bower_components').to_s.tap do |bower_path|
       config.assets.paths << bower_path
       config.assets.paths << bower_path
     end 
     config.assets.precompile << %r(.*.(?:eot|svg|ttf|woff)$)
+=======
+
+>>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
 =======
 
 >>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
