@@ -15,5 +15,4 @@
 //= require angular/angular
 //= require angular-route/angular-route
 //= require angular-rails-templates
-//= require bootstrap-sass/assets/javascripts/bootstrap-sprockets
 //= require_tree .
