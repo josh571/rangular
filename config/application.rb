@@ -19,19 +19,9 @@ module Rangular
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-<<<<<<< HEAD
-<<<<<<< HEAD
-    root.join('vendor', 'assets', 'bower_components').to_s.tap do |bower_path|
-      config.assets.paths << bower_path
-      config.assets.paths << bower_path
-    end 
+    config.assets.paths << Rails.root.join("vendor","assets","bower_components")
+    config.assets.paths << Rails.root.join("vendor","assets","bower_components","bootstrap-sass-official","assets","fonts") 
     config.assets.precompile << %r(.*.(?:eot|svg|ttf|woff)$)
-=======
-
->>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
-=======
-
->>>>>>> parent of 7a9d26f... hopefully fixed the filesystem for heroku deployment
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end

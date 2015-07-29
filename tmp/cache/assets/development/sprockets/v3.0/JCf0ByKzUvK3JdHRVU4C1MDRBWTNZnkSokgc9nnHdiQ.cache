@@ -1,0 +1,7 @@
+I"a(function() {
+  var rangular;
+
+  rangular = angular.module('rangular', []);
+
+}).call(this);
+:ET
