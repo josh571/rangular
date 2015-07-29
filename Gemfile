@@ -12,8 +12,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+gem 'angular-rails-templates'
 gem 'bower-rails'
 gem 'sass', '3.2.19'
+gem 'sprockets', '2.8.0' 
 
 gem 'foreman'
 group :production, :staging do
